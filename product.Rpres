@@ -1,0 +1,44 @@
+Product Calculator
+========================================================
+author: Chan Kwan Loong
+date: 5 June 2015
+transition: rotate
+
+Introduction
+========================================================
+
+This presentation will demonstrate the use of the Product Calculator. It can easily calculate the product of positive integers from 1 up to the input integer.
+
+Advantages
+========================================================
+incremental: true
+
+The Product Calculator offers the following **benefits**:
+
+- User-friendly interface
+- Simple layout
+- Ease of use
+- Performs calculation quickly
+
+Demonstration
+========================================================
+type: prompt
+
+User inputs a positive integer, e.g. 5.
+
+```{r}
+x <- 5
+x
+```
+
+When the Submit button is clicked, the app calculates the product of all positive integers up to the input integer and returns the product. 
+E.g. 1 x 2 x 3 x 4 x 5 = 120
+
+```{r}
+y <- factorial(5)
+y
+```
+
+Conclusion
+========================================================
+Thank you for trying out the Product Calculator. I hope you enjoyed using it!
